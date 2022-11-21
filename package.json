@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "yarn": "^1.22.19"
+  },
+  "scripts": {
+      "cy:open" : "cypress open",
+      "cy:run": "cypress run"
+  }
+}
