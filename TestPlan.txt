@@ -1,0 +1,101 @@
+Project: ZeroBank 
+Tester: Aracelli Novaes
+
+1 Introduction
+1.1 General Information:
+
+This document describes the methods and procedures that will be used 
+in the functional testing process of the web application.
+The objective of the testing activities is to check functions and 
+features of a software product developed for web brosers.
+
+
+1.2 Purpose:
+
+This Test Plan document for the ZeroBank project supports the following 
+objectives:
+ - Identify existing project information and software componentes to be
+ tested;
+ - Recommendation and description of the testing strategies to be employed;
+ -Identify required resources and provide a test effort estimate;
+ List the test project deliverable elements.
+
+
+2 Scope of project 
+
+The following components and functions woulb be tested:
+- Login and password recovery;
+- Navegation bar;
+- Searchbox;
+- Feedback form;
+- Forgotten password form;
+- Different devices;
+
+
+3 Work Plan
+
+- Test plan preparation
+- Test plan approval
+- Functional Testing and bubs reporting
+- Final report preparation
+
+4 Test Plan and Strategy
+4.1 Functional testing
+
+The objective of functional testing is to make sure that the whole software product works
+according to the requirements, and no significant errors appear in the application.
+Functional testing is the most substantial part of software testing. It involves checking
+different aspects of the system. A software product must pass all the planned tests. Only
+in this case its quality can be assured.
+
+- Technique:
+Execute each use case, use-case flow, or function, using valid and
+invalid data, to verify the following:
+● The expected results occur when valid data is used.
+● The appropriate error or warning messages are displayed when
+invalid data is used.
+● Each rule is properly applied.
+
+- Entry Criteria: 
+● The application construction is completed.
+● The test engineers are dedicated.
+● Necessary devices, instruments, and other equipment are acquired.
+● Test environment is prepared, and the application is released to the
+test environment.
+
+- Completion Criteria:
+● All the planned tests are performed.
+● There are no show-stopping errors.
+● All the errors of high priority and severity are fixed.
+● The test results are evaluated, discussed and approved.
+
+4.2 Bug report
+Bug reports are created in order to provide the development team and the project
+managers with exhaustive information about the discovered defects. They must be helpful
+in determining causes of the errors and correcting them.
+
+
+5 Resources
+5.1 Tools
+
+- Cypress
+- Visual Studio
+- Jira
+
+5.2 Browser
+
+- Chrome
+
+5.3 Devices
+
+- Iphone X 
+- 720p
+- 1080p
+
+6 The criteria of quality
+The product should operate in accordance with the requirements and the functional
+specification (if present).
+
+7 Deliverables
+● Test Plan.
+● Bug reports and reports regarding the testing progress

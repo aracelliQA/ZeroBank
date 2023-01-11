@@ -7,6 +7,7 @@ describe('Feedback Test', () => {
     it('Should load feedback form', () =>{
         cy.url().should('include', 'feedback.html')
         cy.get('h3').should('be.visible')
+        cy.get('form').should('be.visible')
 
     })
 
