@@ -6,7 +6,6 @@ describe('Login and Logout ', () => {
 
     })
     
-
     it('Should try to login with invalid data', () => {
         cy.get('.form-inputs').should('be.visible')
         cy.get('#user_login').type('invalid username')
