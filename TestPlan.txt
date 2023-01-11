@@ -18,7 +18,7 @@ objectives:
  - Identify existing project information and software componentes to be
  tested;
  - Recommendation and description of the testing strategies to be employed;
- -Identify required resources and provide a test effort estimate;
+ - Identify required resources and provide a test effort estimate;
  List the test project deliverable elements.
 
 
