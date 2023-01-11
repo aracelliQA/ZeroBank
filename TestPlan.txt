@@ -99,4 +99,4 @@ specification (if present).
 
 7 Deliverables
 ● Test Plan.
-● Bug reports and reports regarding the testing progress
+● Bug reports and reports regarding the testing progress.
