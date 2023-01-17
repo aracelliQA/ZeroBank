@@ -5,10 +5,7 @@ describe('Add new Payee', () => {
     cy.fixture('user').then(user =>{
       const username = user.id
       const password = user.psd
-      cy.get('#user_login').type(username)
-      cy.get('#user_password').type(password)
-      cy.get('#user_remember_me').click()
-      cy.contains('Sign in').click()
+      cy.login(username,password)
     })
     cy.contains('Pay Bills').click()
     cy.contains('Add New Payee').click()
@@ -28,9 +25,7 @@ describe('Add new Payee', () => {
   })
 
   it('Should logout from application', () => {
-    cy.contains('username').click()
-    cy.get('#logout_link').click()
-    cy.url().should('include', 'index.html')
+    cy.logout()
 })
 
 })
