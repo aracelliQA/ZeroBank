@@ -31,6 +31,8 @@ The following components and functions woulb be tested:
 - Feedback form;
 - Forgotten password form;
 - Different devices;
+- Filtering;
+- Payement functionalities.
 
 
 3 Work Plan
